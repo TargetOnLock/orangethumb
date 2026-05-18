@@ -1,0 +1,167 @@
+{
+  "brand": {
+    "name": "Orange Thumb",
+    "city": "West Salem, WI",
+    "address": "100 Leonard St S, West Salem, WI 54669",
+    "phone": "(608) 612-0093",
+    "tagline": "Where creativity never goes out of style.",
+    "logo": "/images/logo.jpg",
+    "facebook": "https://www.facebook.com/orangethumbws",
+    "yelp": "https://www.yelp.com/biz/orange-thumb-west-salem"
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "open": "Closed"
+    },
+    {
+      "day": "Tuesday",
+      "open": "10:00 AM - 4:00 PM"
+    },
+    {
+      "day": "Wednesday",
+      "open": "10:00 AM - 4:00 PM"
+    },
+    {
+      "day": "Thursday",
+      "open": "10:00 AM - 4:00 PM"
+    },
+    {
+      "day": "Friday",
+      "open": "10:00 AM - 4:00 PM"
+    },
+    {
+      "day": "Saturday",
+      "open": "10:00 AM - 4:00 PM"
+    },
+    {
+      "day": "Sunday",
+      "open": "Closed"
+    }
+  ],
+  "hero": {
+    "title": "Discover Handmade Treasures in Downtown West Salem",
+    "subtitle": "A trendy boutique featuring women's accessories, stunning jewelry, unique crafts, soaps, clothing, and more."
+  },
+  "about": {
+    "heading": "About Orange Thumb",
+    "paragraphs": [
+      "At the Orange Thumb, creativity never goes out of style. Each of our local artists has a creative thumb, and that is how we offer an incredible selection of handmade items every day.",
+      "Orange is the color of creativity. Just like a green thumb, our artists carry a creative (orange) thumb. You will find something new with every visit.",
+      "Whether shopping for yourself or surprising a friend with something special, Orange Thumb has it all. Stop by today for a shopping experience like no other."
+    ]
+  },
+  "highlightBlocks": [
+    {
+      "id": "locallymade1",
+      "type": "text",
+      "title": "Locally Made",
+      "body": "Handcrafted goods from local artists and makers."
+    },
+    {
+      "id": "stylegift1",
+      "type": "text",
+      "title": "Style + Gift Ideas",
+      "body": "Boutique clothing, jewelry, and one-of-a-kind gift finds."
+    }
+  ],
+  "pageSections": [
+    {
+      "id": "vb9wktf3",
+      "type": "customImage",
+      "title": "",
+      "src": "/uploads/1778172505023-n9scr-artwist.webp",
+      "caption": ""
+    },
+    {
+      "id": "hero-main",
+      "type": "hero"
+    },
+    {
+      "id": "highlights-main",
+      "type": "highlights"
+    },
+    {
+      "id": "about-main",
+      "type": "about"
+    },
+    {
+      "id": "location-main",
+      "type": "locationHours"
+    },
+    {
+      "id": "gallery-main",
+      "type": "gallery",
+      "caption": "",
+      "title": ""
+    }
+  ],
+  "mediaGallery": [
+    {
+      "id": "utbpw87p",
+      "type": "image",
+      "src": "/uploads/1778166791587-ltt69-2.jpg",
+      "caption": "Orange Thumb in-store moment"
+    },
+    {
+      "id": "etx28fsh",
+      "type": "image",
+      "src": "/uploads/1778166791591-9wopl-3.jpg",
+      "caption": "Orange Thumb in-store moment"
+    },
+    {
+      "id": "uifmelci",
+      "type": "image",
+      "src": "/uploads/1778166791593-9yikx-4.jpg",
+      "caption": "Orange Thumb in-store moment"
+    },
+    {
+      "id": "p82fe425",
+      "type": "image",
+      "src": "/uploads/1778166791596-bsaf5-5.jpg",
+      "caption": "Orange Thumb in-store moment"
+    },
+    {
+      "id": "uwh09wjb",
+      "type": "image",
+      "src": "/uploads/1778166791598-vax4p-6.jpg",
+      "caption": "Orange Thumb in-store moment"
+    },
+    {
+      "id": "cvz4b3lq",
+      "type": "image",
+      "src": "/uploads/1778166791601-0dgio-7.jpg",
+      "caption": "Orange Thumb in-store moment"
+    },
+    {
+      "id": "bf3qxwtd",
+      "type": "image",
+      "src": "/uploads/1778166791603-2kku6-8.jpg",
+      "caption": "Orange Thumb in-store moment"
+    },
+    {
+      "id": "zy6rzu95",
+      "type": "image",
+      "src": "/uploads/1778166791605-l63ij-9.jpg",
+      "caption": "Orange Thumb in-store moment"
+    },
+    {
+      "id": "bxkisdyn",
+      "type": "image",
+      "src": "/uploads/1778166791607-ygg9x-logo.jpg",
+      "caption": "Orange Thumb in-store moment"
+    },
+    {
+      "id": "qww6awtg",
+      "type": "image",
+      "src": "/uploads/1778166791609-v00x8-orangethumb1.jpg",
+      "caption": "Orange Thumb in-store moment"
+    },
+    {
+      "id": "569ubvy8",
+      "type": "image",
+      "src": "/uploads/1778172505023-n9scr-artwist.webp",
+      "caption": ""
+    }
+  ]
+}

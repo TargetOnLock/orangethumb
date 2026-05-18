@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Orange Thumb Admin</title>
+    <link rel="stylesheet" href="/admin/admin.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.2/Sortable.min.js"></script>
+  </head>
+  <body>
+    <main class="admin-shell">
+      <section id="login-panel" class="panel">
+        <h1>Orange Thumb Admin</h1>
+        <p>Login to update text and media for the storefront.</p>
+        <form id="login-form">
+          <label>Username <input name="username" value="owner" required /></label>
+          <label>Password <input type="password" name="password" required /></label>
+          <button type="submit">Login</button>
+        </form>
+        <p class="hint">Default password: <code>OrangeThumb!2026</code> (change with env var)</p>
+      </section>
+
+      <section id="editor-panel" class="panel hidden">
+        <div class="editor-head">
+          <h2>Content Editor</h2>
+          <div>
+            <button id="save-btn" class="primary">Save Changes</button>
+            <button id="logout-btn">Logout</button>
+          </div>
+        </div>
+
+        <div class="grid">
+          <article class="editor-card">
+            <h3>Brand + Hero</h3>
+            <label>Store Name <input id="brandName" /></label>
+            <label>Phone <input id="brandPhone" /></label>
+            <label>Address <input id="brandAddress" /></label>
+            <label>Logo URL <input id="brandLogo" /></label>
+            <label>Tagline <input id="brandTagline" /></label>
+            <label>Hero Title <input id="heroTitle" /></label>
+            <label>Hero Subtitle <textarea id="heroSubtitle"></textarea></label>
+          </article>
+
+          <article class="editor-card">
+            <h3>Hours (one per line: Day|Hours)</h3>
+            <textarea id="hoursEditor" rows="8"></textarea>
+          </article>
+
+          <article class="editor-card">
+            <h3>About Paragraphs (drag to reorder)</h3>
+            <div id="about-list" class="sortable"></div>
+            <button id="add-about">Add Paragraph</button>
+          </article>
+
+          <article class="editor-card">
+            <h3>Highlights (drag to reorder)</h3>
+            <div id="highlight-list" class="sortable"></div>
+            <button id="add-highlight">Add Highlight</button>
+          </article>
+
+          <article class="editor-card">
+            <h3>Media Gallery (drag/drop files + reorder)</h3>
+            <div id="dropzone">Drop image/video files here or click to choose</div>
+            <input id="media-input" type="file" multiple accept="image/*,video/*" hidden />
+            <div id="media-list" class="sortable media-list"></div>
+          </article>
+
+          <article class="editor-card">
+            <h3>Page Layout (drag to reorder entire page)</h3>
+            <div id="layout-list" class="sortable"></div>
+            <div id="layout-image-dropzone">Drop image files here to add image sections to the page</div>
+            <input id="layout-image-input" type="file" multiple accept="image/*" hidden />
+            <div class="layout-actions">
+              <button id="add-custom-image" type="button">Add Image Section</button>
+              <button id="add-custom-text" type="button">Add Text Section</button>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <script src="/admin/admin.js"></script>
+  </body>
+</html>
